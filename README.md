@@ -3,7 +3,7 @@
 
 ## Preparing data
 Data directory should have the following structure, please check this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12) for more details. 
-
+```
 dir/
   train/
     n02134418/
@@ -17,7 +17,7 @@ dir/
     train.txt
     val.txt
     synsets.txt
-
+```
 
 ## Train Model from Scratch
 ```python
