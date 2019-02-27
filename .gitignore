@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+# training files
+train_log/*
 # Distribution / packaging
 .Python
 build/
