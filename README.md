@@ -2,21 +2,10 @@
 
 
 ## Preparing data
-Data directory should have the following structure, please check this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12) for more details. 
+Data directory should have the structure stated in this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12). 
+We provide a download + Preprocess script download.sh in utils.
 ```
-dir/
-  train/
-    n02134418/
-      Y&*@E.JPEG
-      ...
-    ...
-  val/
-    jeiio2nx.JPEG
-    ...
-  meta/
-    train.txt
-    val.txt
-    synsets.txt
+bash download.sh
 ```
 
 ## Train Model from Scratch
