@@ -20,7 +20,7 @@ dir/
 ```
 
 ## Train Model from Scratch
-```python
+```
 python3 ./imagenet-resnet.py --data /raid/webvision2018/ --gpu 0,1,2,3 -d 50 --mode resnet
 ```
 
@@ -35,7 +35,7 @@ The 205 Epoch model achieves Top5 28.37% error rate on the development set in Co
 
 ## Evaluation and Submission
 To generate the prediction files for CodaLab submissions, assume testimages are stored in the above format in /raid/webvision2018_test/val/:
-```python
+```
 python3 ./imagenet-resnet.py --data /raid/webvision2018_test/ -d 50 --mode resnet --eval --load train_log/imagenet-resnet-d50-webvision2018-200epochs/model-1055000
 
 # Prepariing the submission test file
