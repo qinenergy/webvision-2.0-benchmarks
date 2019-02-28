@@ -39,7 +39,8 @@ mv val_filelist.txt meta/val.txt
 wget https://data.vision.ee.ethz.ch/cvl/webvision2018/test_images_resized.tar                            
 tar -xvf test_images_resized.tar                                                                         
 rm test_images_resized.tar                                                                   
-wget https://data.vision.ee.ethz.ch/cvl/webvision2018/test_filelist.txt                                  mkdir webvision2018_test
+wget https://data.vision.ee.ethz.ch/cvl/webvision2018/test_filelist.txt
+mkdir webvision2018_test
 mv test_images_resized webvision2018_test/val
 
 mkdir webvision2018_test/meta
