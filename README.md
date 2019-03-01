@@ -33,9 +33,9 @@ python3 utils/json2sub.py
 ```
 
 ## Dependencies
-Tensorflow
-Tensorpack
-opencv-python
++ Tensorflow
++ Tensorpack
++ opencv-python
 
 ## Acknowledgement
 ImageNet ResNet-50 Code from Tensorpack, we modified the data pipeline for Webvision.
