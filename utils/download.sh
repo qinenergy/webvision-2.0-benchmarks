@@ -45,5 +45,5 @@ mv test_images_resized webvision2018_test/val
 
 mkdir webvision2018_test/meta
 
-mv test_filelist.txt webvision2018_test/meta/val.txt
+awk '$0=$0" 0"' test_filelist.txt > webvision2018_test/meta/val.txt
 cp meta/synsets.txt webvision2018_test/meta/
