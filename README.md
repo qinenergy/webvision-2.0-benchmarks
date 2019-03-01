@@ -28,7 +28,7 @@ To generate the prediction files for CodaLab submissions, assume testimages are 
 ```
 python3 ./imagenet-resnet.py --data /raid/webvision2018_test/ -d 50 --mode resnet --eval --load train_log/imagenet-resnet-d50-webvision2018-200epochs/model-1055000
 
-# Prepariing the submission test file
+# Prepariing the submission file
 python3 utils/json2sub.py  
 ```
 
