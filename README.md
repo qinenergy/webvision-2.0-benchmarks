@@ -3,8 +3,9 @@
 
 ## Preparing data
 Data directory should have the structure stated in this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12). 
-We provide a download + Preprocess script download.sh in utils.
+We provide a download + preprocess script for this.
 ```
+cd utils
 bash download.sh
 ```
 
