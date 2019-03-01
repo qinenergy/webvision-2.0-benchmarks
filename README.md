@@ -32,7 +32,7 @@ python3 ./imagenet-resnet.py --data /raid/webvision2018_test/ -d 50 --mode resne
 python3 utils/json2sub.py  
 ```
 
-## Main Libraries
+## Dependencies
 Tensorflow
 Tensorpack
 opencv-python
