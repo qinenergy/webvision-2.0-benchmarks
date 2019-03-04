@@ -39,7 +39,7 @@ python3 utils/json2sub.py
 + opencv-python
 
 ## Acknowledgement
-ImageNet ResNet-50 Code from Tensorpack, we modified the data pipeline for Webvision.
+The Code is adapted from Tensorpack, where we modified the data pipeline for Webvision.
 
 
 
