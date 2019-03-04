@@ -8,8 +8,10 @@ We provided a download + preprocess script for this.
 cd utils
 bash download.sh
 ```
+## Step-2: Install tensorpack
+Folloing [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
 
-## Step-2: Train the model (ResNet-50)
+## Step-3: Train the model (ResNet-50)
 Following the setting for ImageNet in tensorpack, we use 4 GPUS with the batch size being set to 64x4=256. Run the following script to train the model, 
 ```
 python3 ./imagenet-resnet.py --data /raid/webvision2018/ --gpu 0,1,2,3 -d 50 --mode resnet
