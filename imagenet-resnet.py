@@ -81,7 +81,7 @@ def get_config(model, fake=False):
         callbacks = [
             ModelSaver(),
             ScheduledHyperParamSetter(
-                'learning_rate', [(30, BASE_LR * 1e-1), (60, BASE_LR * 1e-2),
+                'learning_rate', [(0, BASE_LR), (30, BASE_LR * 1e-1), (60, BASE_LR * 1e-2),
                                   (90, BASE_LR * 1e-3)]),
         ]
         if BASE_LR > 0.1:
