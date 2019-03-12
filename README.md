@@ -3,13 +3,13 @@
 
 ## Step-1: Prepare data
 The data directory should be prepared following the structure stated in this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12). 
-We provided a download + preprocess script for this.
+We have provided a download + preprocess script for this.
 ```
 cd utils
 bash download.sh
 ```
 ## Step-2: Install tensorpack
-Folloing [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
+Following [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
 
 ## Step-3: Train the model (ResNet-50)
 Following the setting for ImageNet in tensorpack, we use 4 GPUS with the batch size being set to 64x4=256. Run the following script to train the model, 
