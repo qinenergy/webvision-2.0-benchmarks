@@ -8,6 +8,7 @@ We have provided a download + preprocess script for this.
 cd utils
 bash download.sh
 ```
+Note that the server hosting Webvision Data reboots every day at midnight (Zurich time). You might want to change wget to something else. 
 ## Step-2: Install tensorpack
 Following [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
 
