@@ -19,7 +19,7 @@ python3 ./imagenet-resnet.py --data /raid/webvision2018/ --gpu 0,1,2,3 -d 50 --m
 ```
 
 ## Pretrained models
-We offer two pretrained ResNet-50 models. Due to the class imbalance in WebVision, we duplicated the file items in train.txt such that different classes have equal number of training samples.
+We offer two pretrained ResNet-50 models. Due to the class imbalance in WebVision, we duplicated the file items in train.txt such that different classes have equal number of training samples. You might want to add similar strategies in imagenet5k.py. 
 
 [520000 Steps (101 ImageNet Epoch)](https://drive.google.com/open?id=12359rElqF1GBLp8AhDPtcV6pdPw9jkbx)   30.69% Top5 Balanced Class Error Rate - Validation Set
 
