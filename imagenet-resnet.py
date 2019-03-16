@@ -139,7 +139,7 @@ if __name__ == '__main__':
         for i in range(5000):
             shutil.copy2(basedir+"val"+str(i)+".txt", basedir+"val.txt")
             print("Eval on class:", i)
-            ds = get_data('val', batch)
+            ds = get_data('val', batch, parallel=1)
             ac1, ac5 = eval_on_ILSVRC12(model, get_model_loader(args.load), ds)
             acc1.append(ac1)
             acc5.append(ac5)
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
     elif args.eval:
         batch = 128    # something that can run on one gpu
-        ds = get_data('val', batch)
+        ds = get_data('val', batch, parallel=1)
         eval_on_ILSVRC12(model, get_model_loader(args.load), ds)
     else:
         if args.fake:
