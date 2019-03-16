@@ -113,8 +113,7 @@ def get_imagenet_dataflow(
             im = cv2.imread(fname, cv2.IMREAD_COLOR)
             im = aug.augment(im)
             return im, cls
-        #ds = MultiThreadMapData(ds, parallel, mapf, buffer_size=2000, strict=True)
-        ds = MultiThreadMapData(ds, 1, mapf, buffer_size=2000, strict=True)
+        ds = MultiThreadMapData(ds, parallel, mapf, buffer_size=2000, strict=True)
         ds = BatchData(ds, batch_size, remainder=True)
         ds = PrefetchDataZMQ(ds, 1)
     return ds
