@@ -12,7 +12,7 @@ Note that the server hosting Webvision Data reboots every day at midnight (Zuric
 ## Step-2: Install tensorpack
 Following [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
 ```bash
-pip3 install tensorpack==0.8.0
+pip3 install tensorpack==0.9.1
 ```
 
 ## Step-3: Train the model (ResNet-50)
