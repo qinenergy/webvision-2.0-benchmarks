@@ -11,6 +11,9 @@ bash download.sh
 Note that the server hosting Webvision Data reboots every day at midnight (Zurich time). You might want to change wget to something else. 
 ## Step-2: Install tensorpack
 Following [the instructions here](https://github.com/tensorpack/tensorpack) to install tensorpack. 
+```bash
+pip3 install tensorpack==0.8.0
+```
 
 ## Step-3: Train the model (ResNet-50)
 Following the setting for ImageNet in tensorpack, we use 4 GPUS with the batch size being set to 64x4=256. Run the following script to train the model, 
