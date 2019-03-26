@@ -29,6 +29,9 @@ We offer several pretrained models. Due to the class imbalance in WebVision, we 
 [1055000 Steps (205 ImageNet Epoch)](https://drive.google.com/open?id=1Rsf0TFgbC6CmPyQfaBchil_guJxj1MIl)   28.51% Top5 Balanced Class Error Rate - Validation Set
 
 The 205 Epoch model achieves Top5 28.37% error rate on the development set of WebVision 2018 challenge (evaluated with half of test data) in CodaLab. 
+###  ResNet-101
+[100 ImageNet Epoch](https://tobeuploaded)  28.62% Top5 Balanced Class Error Rate - Validation Set 
+
 ### ResNet-152
 [535000 Steps (105 ImageNet Epoch)](https://tobeuploaded)   27.73% Top5 Balanced Class Error Rate - Validation Set 
 
