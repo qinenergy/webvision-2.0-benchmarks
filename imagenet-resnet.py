@@ -55,11 +55,11 @@ class Model(ImageNetModel):
                 preresnet_group if self.mode == 'preact' else resnet_group, self.block_func)
 
 
-def get_data(name, batch):
+def get_data(name, batch, parallel=None):
     isTrain = name == 'train'
     augmentors = fbresnet_augmentor(isTrain)
     return get_imagenet_dataflow(
-        args.data, name, batch, augmentors)
+        args.data, name, batch, augmentors, parallel=prarallel)
 
 
 def get_config(model, fake=False):
