@@ -32,6 +32,9 @@ The 205 Epoch model achieves Top5 28.37% error rate on the development set of We
 ### ResNet-152
 [535000 Steps (105 ImageNet Epoch)](https://tobeuploaded)   27.73% Top5 Balanced Class Error Rate - Validation Set 
 
+### ResNet-152-SE
+[100 ImageNet Epoch](https://tobeuploaded)      28.02% Top5 Balanced Class Error Rate - Validation Set 
+
 ## Evaluation and Submission
 To generate the prediction files for CodaLab submissions, assume testimages are stored in the above format in /raid/webvision2018_test/val/:
 ```
