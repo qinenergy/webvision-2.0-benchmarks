@@ -24,7 +24,7 @@ python3 ./imagenet-resnet.py --data /raid/webvision2018/ --gpu 0,1,2,3 -d 50 --m
 ## Pretrained models
 We offer several pretrained models. **Due to the class imbalance in WebVision, we duplicated the file items in train.txt such that different classes have equal number of training samples. You might want to add similar strategies in imagenet5k.py or modify your own train.txt. Check utils/upsample.py for an example.**
 
-| Model  | Top1 | Top5 | Download |
+| Model  | Top1-Val-Error | Top5-Val-Error | Download |
 | -------- | -------- | -------- | -------- |
 | ResNet-50 (101 Epoch)     | 54.28%     | 30.69%     | [link](https://drive.google.com/open?id=12359rElqF1GBLp8AhDPtcV6pdPw9jkbx)
 | ResNet-50 (205 Epoch)     | 52.10%     | 28.51%	     | [link](https://drive.google.com/open?id=1Rsf0TFgbC6CmPyQfaBchil_guJxj1MIl)
