@@ -32,7 +32,8 @@ We offer several pretrained models. **Due to the class imbalance in WebVision, w
 | ResNet-152 (100 Epoch)     | 51.23%     | 27.80%	     | [link](https://drive.google.com/open?id=1swJnEzn3XIAtpHxwntFx4CyfuSeE_CRa)
 | ResNet-152-SE (100 Epoch)   | 51.61%     | 28.02%	     | [link]()
 
-Note that one epoch is defined as an iteration over 1280000 images.
+Note that one epoch is defined as an iteration over 1280000 images. Scores are based on validation set, and calculated by utils/eval_score.py using the same metric (Equal weight for each class) as the competition evaluation.
+
 ## Evaluation and Submission
 To generate the prediction files for CodaLab submissions, assume testimages are stored in the above format in /raid/webvision2018_test/val/:
 ```
