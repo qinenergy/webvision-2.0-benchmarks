@@ -30,7 +30,7 @@ We offer several pretrained models. **Due to the class imbalance in WebVision, w
 | ResNet-50 (205 Epoch)     | 52.10%     | 28.51%	     | [link](https://drive.google.com/open?id=1Rsf0TFgbC6CmPyQfaBchil_guJxj1MIl)
 | ResNet-101 (100 Epoch)     | 52.21%     | 28.62%	     | [link](https://drive.google.com/open?id=1KytIJRV9rqqLhxEOtn9Mc_PsU9seguEZ)
 | ResNet-101 (200 Epoch)     | 50.12%     | 26.78%	     | [link](https://drive.google.com/open?id=1PBC6woDWq0NttTSQWiBKZf9rfgyZWbyh)
-| ResNet-101 (300 Epoch)     | %     | %	     |  coming soon
+| ResNet-101 (300 Epoch)     | 48.97%     | 25.74%	     | [link](https://drive.google.com/open?id=1_keTccseVhADGICEQtUNbyDgSIT73Lfw)
 | ResNet-101 (400 Epoch)     | %     | %	     |  coming soon
 | ResNeXt-101 (100 Epoch)     | %     | %	     |  coming soon
 | ResNet-152 (100 Epoch)     | 51.23%     | 27.80%	     | [link](https://drive.google.com/open?id=1swJnEzn3XIAtpHxwntFx4CyfuSeE_CRa)
