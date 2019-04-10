@@ -49,8 +49,8 @@ python3 ./imagenet-resnet.py --data /raid/webvision2018_test/ -d 50 --mode resne
 # Preparing the submission file
 python3 utils/json2sub.py  
 ```
-## Top-5 Error Rate Against Training Time
-![resnet101](./figs/resnet101.png)
+
+![resnet101](./figs/webvision.png)
 
 Note that the error rate in the above figure is calculated directly over validation set (without averaging over class), and thus not the same metric used by the evaluation system.
 
