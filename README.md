@@ -64,5 +64,11 @@ Note that the error rate in the above figure is calculated directly over validat
 ## Acknowledgement
 The code is adapted from Tensorpack, where we modified the data pipeline for Webvision.
 
+## License 
+Apache
 
+## Disclaimer
+The webvision dataset is collected by the learning from web data team at Computer Vision Laboratory, ETH Zurich. The dataset development was supported by Google Research Zuirch. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the funding agencies.
+
+This repository is developed by the learning from web data team at Computer Vision Laboratory, ETH Zurich. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the funding agencies.
 
