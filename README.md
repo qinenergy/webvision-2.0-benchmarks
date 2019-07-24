@@ -39,7 +39,7 @@ We offer several pretrained models. **Due to the class imbalance in WebVision, w
 | ResNet-152 (500 Epoch)     | 47.31%      |  24.31% |  [link](https://drive.google.com/open?id=1oZnelNCvsW34q1TWnpe_Njoyz1CXxky3)
 | ResNet-152-SE (100 Epoch)   | 51.61%     | 28.02%	     | [link](https://drive.google.com/open?id=1Yz1r4-vuEDiGNxzLsh9ULyiqydG85S6m)
 
-Note that one epoch is defined as an iteration over 1280000 images. Scores are based on validation set, and calculated by utils/eval_score.py using the same metric (Equal weight for each class) as the competition evaluation.
+Note that here one epoch is defined as an iteration over 1280000 images (ImageNet Epoch), you could divide it by 16M/1.28M to get the Webvision epoch count. Scores are based on validation set, and calculated by utils/eval_score.py using the same metric (Equal weight for each class) as the competition evaluation.
 
 All models are trained from scratch using solely Webvision data. 
 
