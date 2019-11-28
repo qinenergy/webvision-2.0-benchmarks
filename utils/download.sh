@@ -6,13 +6,13 @@
 
 for i in {0..9}
 do
-    wget https://data.vision.ee.ethz.ch/aeirikur/webvision2018/webvision_train_0$i.tar 
+    wget https://data.vision.ee.ethz.ch/cvl/webvision2018/webvision_train_0$i.tar 
     tar -xvf webvision_train_0$i.tar
     rm webvision_train_0$i.tar
 done
 for i in {10..32}
 do
-    wget https://data.vision.ee.ethz.ch/aeirikur/webvision2018/webvision_train_$i.tar
+    wget https://data.vision.ee.ethz.ch/cvl/webvision2018/webvision_train_$i.tar
     tar -xvf webvision_train_$i.tar
     rm webvision_train_$i.tar	
 done	
