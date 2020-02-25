@@ -1,5 +1,6 @@
 # Benchmark Models for WebVision 2.0 Dataset
 
+**Please check this year's Webvision dev kit [here](https://github.com/qinenergy/webvision-2020-public)**
 
 ## Step-1: Prepare data
 The data directory should be prepared following the structure stated in this [link](https://tensorpack.readthedocs.io/modules/dataflow.dataset.html#tensorpack.dataflow.dataset.ILSVRC12). 
